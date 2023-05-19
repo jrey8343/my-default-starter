@@ -4,15 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "eslintConfig": {
-    "extends": ["wesbos"]
+    "extends": [
+      "wesbos"
+    ]
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "eslint-config-wesbos": "^3.2.3"
+  },
+  "devDependencies": {
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
   }
 }
